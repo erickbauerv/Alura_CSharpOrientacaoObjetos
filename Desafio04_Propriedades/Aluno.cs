@@ -11,7 +11,7 @@ namespace Desafio04_Propriedades
         public int _matricula;
         private int Matricula
         {
-            get { return _matricula}
+            get { return _matricula; }
             set
             {
                 if (value > 0)

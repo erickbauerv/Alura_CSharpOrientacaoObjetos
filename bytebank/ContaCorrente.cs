@@ -8,10 +8,25 @@ namespace bytebank
 {
     public class ContaCorrente
     {
-        public Titular Titular;
-        public string Conta;
-        public int Agencia;
-        public double Saldo;
+        public Titular Titular { get; set; }
+        public string Conta { get; set; }
+        public int Agencia { get; set; }
+        private double _saldo;
+        public double Saldo
+        {
+            get { return this._saldo; }
+            set 
+            {
+                if (value > 0)
+                {
+                    this._saldo = value;
+                }
+                else
+                {
+                    Console.WriteLine("O valor a ser definido não pode ser menor que 0");
+                }
+            }
+        }
 
         public void Depositar(double valor)
         {

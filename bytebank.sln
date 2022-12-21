@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio02_Valor_padrão_e_e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio03_Crie_uma_composição", "Desafio03_Crie_uma_composição\Desafio03_Crie_uma_composição.csproj", "{909FF0EE-D128-438B-AAE2-15C2924CD357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio04_Propriedades", "Desafio04_Propriedades\Desafio04_Propriedades.csproj", "{A669DE23-99A8-40A8-BA82-ECEA332D1D51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{909FF0EE-D128-438B-AAE2-15C2924CD357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{909FF0EE-D128-438B-AAE2-15C2924CD357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{909FF0EE-D128-438B-AAE2-15C2924CD357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A669DE23-99A8-40A8-BA82-ECEA332D1D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A669DE23-99A8-40A8-BA82-ECEA332D1D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A669DE23-99A8-40A8-BA82-ECEA332D1D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A669DE23-99A8-40A8-BA82-ECEA332D1D51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
